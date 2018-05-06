@@ -14,7 +14,7 @@ map.on('load', function () {
     map.addLayer({
     'id': 'foreclosures',
     'source': 'foreclosures',
-    'source-layer': '2018_foreclosures',
+    'source-layer': 'foreclosures',
     'type': 'fill',
     'paint': {
         'fill-color': {
