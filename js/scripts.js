@@ -64,7 +64,7 @@ map.on('click', function (e) {
     var feature = features[0];
     var popup = new mapboxgl.Popup()
         .setLngLat(map.unproject(e.point))
-        .setHTML('<p><strong>Sale Price:</strong> $' + feature.properties["Sale_Price"] + '</p>')
+        .setHTML('<p><strong>Sale Price:</strong> $' + feature.properties["Sale_Price"] + '<br><strong>Address:</strong> ' + feature.properties["foreclosures_Full Address"] + '</p>')
         .addTo(map);
 });
 // Use the same approach as above to indicate that the symbols are clickable
