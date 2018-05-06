@@ -1,14 +1,19 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2NsYiIsImEiOiJjaXVpN2kyaDIwMHN3MnRydXY2ZGpxN2tiIn0.2DjZvLsMgvMhV1-OLA3gCA';
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/cclb/cjgv9ghdg001j2rp3ckt4hjqu',
-    center: [-79.3837, 42.2918],
-    zoom: 9,
-    minZoom: 9
+    center: [-79.2378329, 42.0959304],
+    zoom: 14,
+    minZoom: 10
 });
 
+map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+}));
 
 map.on('load', function () {
+
   map.addLayer({
     "id": "foreclosures",
     "type": "fill",
@@ -22,8 +27,8 @@ map.on('load', function () {
         property: "Sale_Price",
         stops: [
           [4999, 'rgba(0,0,0,0)'],
-          [5000, '#38e54a'],
-          [100000, '#ff1f1f'],
+          [5000, 'green'],
+          [100000, 'red'],
           [100001, 'rgba(0,0,0,0)']
         ]
       },
@@ -31,6 +36,7 @@ map.on('load', function () {
       'fill-opacity': 1
     }
   });
+
   map.addLayer({
     "id": "vacant_lots",
     "type": "fill",
@@ -40,11 +46,12 @@ map.on('load', function () {
     },
     "source-layer": "2018_vacant_lots",
     'paint': {
-      'fill-color': 'pink',
+      'fill-color': 'orange',
       'fill-outline-color': '#ffffff',
       'fill-opacity': 1
     }
   });
+
 });
 
 // When a click event occurs near a polygon, open a popup at the location of
