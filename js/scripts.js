@@ -7,6 +7,7 @@ var map = new mapboxgl.Map({
     minZoom: 9
 });
 
+
 map.on('load', function () {
   map.addLayer({
     "id": "foreclosures",
@@ -20,14 +21,28 @@ map.on('load', function () {
       'fill-color': {
         property: "Sale_Price",
         stops: [
-          [4999, '#000000'],
+          [4999, 'rgba(0,0,0,0)'],
           [5000, '#38e54a'],
           [100000, '#ff1f1f'],
-          [100001, '#000000']
+          [100001, 'rgba(0,0,0,0)']
         ]
       },
       'fill-outline-color': '#ffffff',
-      'fill-opacity': 0.7
+      'fill-opacity': 1
+    }
+  });
+  map.addLayer({
+    "id": "vacant_lots",
+    "type": "fill",
+    "source": {
+      type: 'vector',
+      url: 'mapbox://cclb.cjgv6hkfl049aasn2swskdmdt-1d2ot'
+    },
+    "source-layer": "2018_vacant_lots",
+    'paint': {
+      'fill-color': 'pink',
+      'fill-outline-color': '#ffffff',
+      'fill-opacity': 1
     }
   });
 });
@@ -51,3 +66,35 @@ map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ['foreclosures'] });
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
+
+
+// Contol the menu
+var toggleableLayerIds = [ 'foreclosures', 'vacant_lots' ];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
