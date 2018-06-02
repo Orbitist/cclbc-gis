@@ -1,0 +1,2242 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.14">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="avgvac_all20180601221626964" source="/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Exports/avgvac_all.geojson" name="avgvac_all OGRGeoJSON Polygon">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Chautauqua_Tracts20180601173005833" source="/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Raw Data/Chautauqua Tracts/Chautauqua Tracts.shp" name="Chautauqua Tracts">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="usps_vac_032018_tractsum_2kx20180601172643105" source="/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Raw Data/usps_vac_032018_tractsum_2kx.dbf" name="usps_vac_032018_tractsum_2kx">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-79.64166230252592982</xmin>
+      <ymin>41.80092674175027412</ymin>
+      <xmax>-78.90553347599532685</xmax>
+      <ymax>42.71498924175027412</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2017_36_tract_500k20180601172753679"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chautauqua_Tracts20180601172903238"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="avgvac_all20180601221626964"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Chautauqua_Tracts20180601173005833"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>usps_vac_032018_tractsum_2kx20180601172643105</item>
+      <item>Chautauqua_Tracts20180601173005833</item>
+      <item>avgvac_all20180601221626964</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="avgvac_all OGRGeoJSON Polygon" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="avgvac_all20180601221626964" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Chautauqua Tracts" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Chautauqua_Tracts20180601173005833" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="usps_vac_032018_tractsum_2kx" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="usps_vac_032018_tractsum_2kx20180601172643105" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-79.76215200000000038</xmin>
+        <ymin>41.99825500000000034</ymin>
+        <xmax>-79.05926399999999887</xmax>
+        <ymax>42.57020099999999729</ymax>
+      </extent>
+      <id>Chautauqua_Tracts20180601173005833</id>
+      <datasource>../Raw Data/Chautauqua Tracts/Chautauqua Tracts.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Chautauqua Tracts</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join joinFieldName="geoid" targetFieldName="GEOID" memoryCache="1" joinLayerId="usps_vac_032018_tractsum_2kx20180601172643105">
+          <joinFieldsSubset>
+            <field name="ams_res"/>
+            <field name="ams_bus"/>
+            <field name="ams_oth"/>
+            <field name="res_vac"/>
+            <field name="bus_vac"/>
+            <field name="oth_vac"/>
+            <field name="avg_vac_r"/>
+            <field name="avg_vac_b"/>
+            <field name="avg_vac_o"/>
+            <field name="vac_3_res"/>
+            <field name="vac_3_bus"/>
+            <field name="vac_3_oth"/>
+            <field name="vac_3_6_r"/>
+            <field name="vac_3_6_b"/>
+            <field name="vac_3_6_o"/>
+            <field name="vac_6_12r"/>
+            <field name="vac_6_12b"/>
+            <field name="vac_6_12o"/>
+            <field name="vac_12_24r"/>
+            <field name="vac_12_24b"/>
+            <field name="vac_12_24o"/>
+            <field name="vac_24_36r"/>
+            <field name="vac_24_36b"/>
+            <field name="vac_24_36o"/>
+            <field name="vac_36_res"/>
+            <field name="vac_36_bus"/>
+            <field name="vac_36_oth"/>
+            <field name="pqv_is_res"/>
+            <field name="pqv_is_bus"/>
+            <field name="pqv_is_oth"/>
+            <field name="pqv_ns_res"/>
+            <field name="pqv_ns_bus"/>
+            <field name="pqv_ns_oth"/>
+            <field name="nostat_res"/>
+            <field name="nostat_bus"/>
+            <field name="nostat_oth"/>
+            <field name="avg_ns_res"/>
+            <field name="avg_ns_bus"/>
+            <field name="avg_ns_oth"/>
+            <field name="ns_3_res"/>
+            <field name="ns_3_bus"/>
+            <field name="ns_3_oth"/>
+            <field name="ns_3_6_res"/>
+            <field name="ns_3_6_bus"/>
+            <field name="ns_3_6_oth"/>
+            <field name="ns_6_12_r"/>
+            <field name="ns_6_12_b"/>
+            <field name="ns_6_12_o"/>
+            <field name="ns_12_24_r"/>
+            <field name="ns_12_24_b"/>
+            <field name="ns_12_24_o"/>
+            <field name="ns_24_36_r"/>
+            <field name="ns_24_36_b"/>
+            <field name="ns_24_36_o"/>
+            <field name="ns_36_res"/>
+            <field name="ns_36_bus"/>
+            <field name="ns_36_oth"/>
+            <field name="pqns_is_r"/>
+            <field name="pqns_is_b"/>
+            <field name="pqns_is_o"/>
+          </joinFieldsSubset>
+        </join>
+      </vectorjoins>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STATEFP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTYFP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TRACTCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AFFGEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LSAD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ALAND">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AWATER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ams_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ams_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ams_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_res_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_bus_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_oth_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_vac_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_vac_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_vac_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_6_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_6_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_3_6_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_6_12r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_6_12b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_6_12o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_12_24r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_12_24b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_12_24o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_24_36r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_24_36b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_24_36o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_36_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_36_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_vac_36_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_is_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_is_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_is_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_ns_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_ns_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqv_ns_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_nostat_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_nostat_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_nostat_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_ns_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_ns_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_avg_ns_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_6_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_6_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_3_6_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_6_12_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_6_12_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_6_12_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_12_24_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_12_24_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_12_24_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_24_36_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_24_36_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_24_36_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_36_res">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_36_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_ns_36_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqns_is_r">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqns_is_b">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="usps_vac_032018_tractsum_2kx_pqns_is_o">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="avg_vac" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.000000000000000" upper="0.008283358300000" label=" 0.0000 - 0.0083 "/>
+          <range render="true" symbol="1" lower="0.008283358300000" upper="0.016566716600000" label=" 0.0083 - 0.0166 "/>
+          <range render="true" symbol="2" lower="0.016566716600000" upper="0.024850074900000" label=" 0.0166 - 0.0249 "/>
+          <range render="true" symbol="3" lower="0.024850074900000" upper="0.033133433200000" label=" 0.0249 - 0.0331 "/>
+          <range render="true" symbol="4" lower="0.033133433200000" upper="0.041416791500000" label=" 0.0331 - 0.0414 "/>
+          <range render="true" symbol="5" lower="0.041416791500000" upper="0.049700149800000" label=" 0.0414 - 0.0497 "/>
+          <range render="true" symbol="6" lower="0.049700149800000" upper="0.057983508100000" label=" 0.0497 - 0.0580 "/>
+          <range render="true" symbol="7" lower="0.057983508100000" upper="0.066266866400000" label=" 0.0580 - 0.0663 "/>
+          <range render="true" symbol="8" lower="0.066266866400000" upper="0.074550224700000" label=" 0.0663 - 0.0746 "/>
+          <range render="true" symbol="9" lower="0.074550224700000" upper="0.082833583000000" label=" 0.0746 - 0.0828 "/>
+          <range render="true" symbol="10" lower="0.082833583000000" upper="0.091116941300000" label=" 0.0828 - 0.0911 "/>
+          <range render="true" symbol="11" lower="0.091116941300000" upper="0.099400299600000" label=" 0.0911 - 0.0994 "/>
+          <range render="true" symbol="12" lower="0.099400299600000" upper="0.107683657900000" label=" 0.0994 - 0.1077 "/>
+          <range render="true" symbol="13" lower="0.107683657900000" upper="0.115967016200000" label=" 0.1077 - 0.1160 "/>
+          <range render="true" symbol="14" lower="0.115967016200000" upper="0.124250374500000" label=" 0.1160 - 0.1243 "/>
+          <range render="true" symbol="15" lower="0.124250374500000" upper="0.132533732800000" label=" 0.1243 - 0.1325 "/>
+          <range render="true" symbol="16" lower="0.132533732800000" upper="0.140817091100000" label=" 0.1325 - 0.1408 "/>
+          <range render="true" symbol="17" lower="0.140817091100000" upper="0.149100449400000" label=" 0.1408 - 0.1491 "/>
+          <range render="true" symbol="18" lower="0.149100449400000" upper="0.157383807700000" label=" 0.1491 - 0.1574 "/>
+          <range render="true" symbol="19" lower="0.157383807700000" upper="0.165667166000000" label=" 0.1574 - 0.1657 "/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,245,235,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,239,224,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,139,58,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="248,125,41,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="243,110,24,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="235,96,14,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="225,83,7,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="213,70,1,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="191,62,2,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="168,55,2,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="148,47,3,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="127,39,4,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,233,212,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="254,226,197,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="254,217,179,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,207,161,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,194,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,180,116,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,166,96,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,153,77,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="110,62,161,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,245,235,255"/>
+          <prop k="color2" v="127,39,4,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="equal"/>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="4"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/AFFGEOID" value="no label"/>
+        <property key="qgis2web/popup/ALAND" value="no label"/>
+        <property key="qgis2web/popup/AWATER" value="no label"/>
+        <property key="qgis2web/popup/COUNTYFP" value="no label"/>
+        <property key="qgis2web/popup/GEOID" value="no label"/>
+        <property key="qgis2web/popup/LSAD" value="no label"/>
+        <property key="qgis2web/popup/NAME" value="no label"/>
+        <property key="qgis2web/popup/STATEFP" value="no label"/>
+        <property key="qgis2web/popup/TRACTCE" value="no label"/>
+        <property key="qgis2web/popup/avg_vac" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ams_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ams_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ams_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_ns_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_ns_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_ns_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_vac_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_vac_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_avg_vac_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_bus_vac" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_nostat_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_nostat_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_nostat_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_12_24_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_12_24_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_12_24_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_24_36_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_24_36_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_24_36_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_36_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_36_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_36_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_6_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_6_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_6_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_3_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_6_12_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_6_12_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_ns_6_12_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_oth_vac" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqns_is_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqns_is_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqns_is_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_is_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_is_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_is_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_ns_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_ns_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_pqv_ns_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_res_vac" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_12_24b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_12_24o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_12_24r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_24_36b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_24_36o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_24_36r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_36_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_36_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_36_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_6_b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_6_o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_6_r" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_bus" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_oth" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_3_res" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_6_12b" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_6_12o" value="no label"/>
+        <property key="qgis2web/popup/usps_vac_032018_tractsum_2kx_vac_6_12r" value="no label"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>NAME</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STATEFP" index="0" name=""/>
+        <alias field="COUNTYFP" index="1" name=""/>
+        <alias field="TRACTCE" index="2" name=""/>
+        <alias field="AFFGEOID" index="3" name=""/>
+        <alias field="GEOID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="LSAD" index="6" name=""/>
+        <alias field="ALAND" index="7" name=""/>
+        <alias field="AWATER" index="8" name=""/>
+        <alias field="avg_vac" index="9" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ams_res" index="10" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ams_bus" index="11" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ams_oth" index="12" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_res_vac" index="13" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_bus_vac" index="14" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_oth_vac" index="15" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_vac_r" index="16" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_vac_b" index="17" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_vac_o" index="18" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_res" index="19" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_bus" index="20" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_oth" index="21" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_6_r" index="22" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_6_b" index="23" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_3_6_o" index="24" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_6_12r" index="25" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_6_12b" index="26" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_6_12o" index="27" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_12_24r" index="28" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_12_24b" index="29" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_12_24o" index="30" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_24_36r" index="31" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_24_36b" index="32" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_24_36o" index="33" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_36_res" index="34" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_36_bus" index="35" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_vac_36_oth" index="36" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_is_res" index="37" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_is_bus" index="38" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_is_oth" index="39" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_ns_res" index="40" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_ns_bus" index="41" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqv_ns_oth" index="42" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_nostat_res" index="43" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_nostat_bus" index="44" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_nostat_oth" index="45" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_ns_res" index="46" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_ns_bus" index="47" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_avg_ns_oth" index="48" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_res" index="49" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_bus" index="50" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_oth" index="51" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_6_res" index="52" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_6_bus" index="53" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_3_6_oth" index="54" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_6_12_r" index="55" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_6_12_b" index="56" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_6_12_o" index="57" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_12_24_r" index="58" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_12_24_b" index="59" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_12_24_o" index="60" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_24_36_r" index="61" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_24_36_b" index="62" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_24_36_o" index="63" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_36_res" index="64" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_36_bus" index="65" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_ns_36_oth" index="66" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqns_is_r" index="67" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqns_is_b" index="68" name=""/>
+        <alias field="usps_vac_032018_tractsum_2kx_pqns_is_o" index="69" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;avg_vac&quot;" sortOrder="1">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="STATEFP"/>
+          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
+          <column width="-1" hidden="0" type="field" name="TRACTCE"/>
+          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
+          <column width="133" hidden="0" type="field" name="GEOID"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="LSAD"/>
+          <column width="-1" hidden="0" type="field" name="ALAND"/>
+          <column width="-1" hidden="0" type="field" name="AWATER"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ams_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ams_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ams_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_res_vac"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_bus_vac"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_oth_vac"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_vac_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_vac_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_vac_o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_6_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_6_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_3_6_o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_6_12r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_6_12b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_6_12o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_12_24r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_12_24b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_12_24o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_24_36r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_24_36b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_24_36o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_36_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_36_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_vac_36_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_is_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_is_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_is_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_ns_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_ns_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqv_ns_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_nostat_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_nostat_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_nostat_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_ns_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_ns_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_avg_ns_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_6_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_6_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_3_6_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_6_12_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_6_12_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_6_12_o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_12_24_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_12_24_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_12_24_o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_24_36_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_24_36_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_24_36_o"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_36_res"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_36_bus"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_ns_36_oth"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqns_is_r"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqns_is_b"/>
+          <column width="-1" hidden="0" type="field" name="usps_vac_032018_tractsum_2kx_pqns_is_o"/>
+          <column width="-1" hidden="1" type="field" name="avg_vac"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets>
+        <widget name="avg_vacant">
+          <config/>
+        </widget>
+      </widgets>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="STATEFP" expression=""/>
+        <default field="COUNTYFP" expression=""/>
+        <default field="TRACTCE" expression=""/>
+        <default field="AFFGEOID" expression=""/>
+        <default field="GEOID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="LSAD" expression=""/>
+        <default field="ALAND" expression=""/>
+        <default field="AWATER" expression=""/>
+        <default field="avg_vac" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ams_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ams_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ams_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_res_vac" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_bus_vac" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_oth_vac" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_vac_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_vac_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_vac_o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_6_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_6_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_3_6_o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_6_12r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_6_12b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_6_12o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_12_24r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_12_24b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_12_24o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_24_36r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_24_36b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_24_36o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_36_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_36_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_vac_36_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_is_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_is_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_is_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_ns_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_ns_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqv_ns_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_nostat_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_nostat_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_nostat_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_ns_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_ns_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_avg_ns_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_6_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_6_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_3_6_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_6_12_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_6_12_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_6_12_o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_12_24_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_12_24_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_12_24_o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_24_36_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_24_36_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_24_36_o" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_36_res" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_36_bus" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_ns_36_oth" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqns_is_r" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqns_is_b" expression=""/>
+        <default field="usps_vac_032018_tractsum_2kx_pqns_is_o" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-79.76215200000000038</xmin>
+        <ymin>41.99825500000000034</ymin>
+        <xmax>-79.05926399999999887</xmax>
+        <ymax>42.57020099999999729</ymax>
+      </extent>
+      <id>avgvac_all20180601221626964</id>
+      <datasource>../Exports/avgvac_all.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>avgvac_all OGRGeoJSON Polygon</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="avg_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="avg_vac" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.000000000000000" upper="0.020000000000000" label="0-2%"/>
+          <range render="true" symbol="1" lower="0.020000000000000" upper="0.040000000000000" label="2-4%"/>
+          <range render="true" symbol="2" lower="0.040000000000000" upper="0.060000000000000" label="4-6%"/>
+          <range render="true" symbol="3" lower="0.060000000000000" upper="0.080000000000000" label="6-8%"/>
+          <range render="true" symbol="4" lower="0.080000000000000" upper="0.100000000000000" label="8-10%"/>
+          <range render="true" symbol="5" lower="0.100000000000000" upper="0.120000000000000" label="10-12%"/>
+          <range render="true" symbol="6" lower="0.120000000000000" upper="0.140000000000000" label="12-14%"/>
+          <range render="true" symbol="7" lower="0.140000000000000" upper="0.160000000000000" label="14-16%"/>
+          <range render="true" symbol="8" lower="0.160000000000000" upper="0.180000000000000" label="16-18%"/>
+          <range render="true" symbol="9" lower="0.180000000000000" upper="0.200000000000000" label="18%-20"/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,245,235,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,233,211,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="254,215,175,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,189,131,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,160,87,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="250,131,48,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="238,101,16,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="218,72,1,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="171,55,2,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="127,39,4,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="65,137,149,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,245,235,255"/>
+          <prop k="color2" v="127,39,4,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="equal"/>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="3"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/avg_vac" value="no label"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>30</layerTransparency>
+      <displayfield>avg_vac</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="avg_vac" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1158545852">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="avg_vac"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="avg_vac" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>usps_vac_032018_tractsum_2kx20180601172643105</id>
+      <datasource>../Raw Data/usps_vac_032018_tractsum_2kx.dbf</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>usps_vac_032018_tractsum_2kx</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="geoid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ams_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ams_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ams_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="res_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="bus_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="oth_vac">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_vac_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_vac_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_vac_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_6_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_6_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_3_6_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_6_12r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_6_12b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_6_12o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_12_24r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_12_24b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_12_24o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_24_36r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_24_36b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_24_36o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_36_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_36_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="vac_36_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_is_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_is_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_is_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_ns_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_ns_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqv_ns_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nostat_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nostat_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nostat_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_ns_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_ns_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="avg_ns_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_6_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_6_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_3_6_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_6_12_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_6_12_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_6_12_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_12_24_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_12_24_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_12_24_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_24_36_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_24_36_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_24_36_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_36_res">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_36_bus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ns_36_oth">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqns_is_r">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqns_is_b">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pqns_is_o">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="geoid" index="0" name=""/>
+        <alias field="ams_res" index="1" name=""/>
+        <alias field="ams_bus" index="2" name=""/>
+        <alias field="ams_oth" index="3" name=""/>
+        <alias field="res_vac" index="4" name=""/>
+        <alias field="bus_vac" index="5" name=""/>
+        <alias field="oth_vac" index="6" name=""/>
+        <alias field="avg_vac_r" index="7" name=""/>
+        <alias field="avg_vac_b" index="8" name=""/>
+        <alias field="avg_vac_o" index="9" name=""/>
+        <alias field="vac_3_res" index="10" name=""/>
+        <alias field="vac_3_bus" index="11" name=""/>
+        <alias field="vac_3_oth" index="12" name=""/>
+        <alias field="vac_3_6_r" index="13" name=""/>
+        <alias field="vac_3_6_b" index="14" name=""/>
+        <alias field="vac_3_6_o" index="15" name=""/>
+        <alias field="vac_6_12r" index="16" name=""/>
+        <alias field="vac_6_12b" index="17" name=""/>
+        <alias field="vac_6_12o" index="18" name=""/>
+        <alias field="vac_12_24r" index="19" name=""/>
+        <alias field="vac_12_24b" index="20" name=""/>
+        <alias field="vac_12_24o" index="21" name=""/>
+        <alias field="vac_24_36r" index="22" name=""/>
+        <alias field="vac_24_36b" index="23" name=""/>
+        <alias field="vac_24_36o" index="24" name=""/>
+        <alias field="vac_36_res" index="25" name=""/>
+        <alias field="vac_36_bus" index="26" name=""/>
+        <alias field="vac_36_oth" index="27" name=""/>
+        <alias field="pqv_is_res" index="28" name=""/>
+        <alias field="pqv_is_bus" index="29" name=""/>
+        <alias field="pqv_is_oth" index="30" name=""/>
+        <alias field="pqv_ns_res" index="31" name=""/>
+        <alias field="pqv_ns_bus" index="32" name=""/>
+        <alias field="pqv_ns_oth" index="33" name=""/>
+        <alias field="nostat_res" index="34" name=""/>
+        <alias field="nostat_bus" index="35" name=""/>
+        <alias field="nostat_oth" index="36" name=""/>
+        <alias field="avg_ns_res" index="37" name=""/>
+        <alias field="avg_ns_bus" index="38" name=""/>
+        <alias field="avg_ns_oth" index="39" name=""/>
+        <alias field="ns_3_res" index="40" name=""/>
+        <alias field="ns_3_bus" index="41" name=""/>
+        <alias field="ns_3_oth" index="42" name=""/>
+        <alias field="ns_3_6_res" index="43" name=""/>
+        <alias field="ns_3_6_bus" index="44" name=""/>
+        <alias field="ns_3_6_oth" index="45" name=""/>
+        <alias field="ns_6_12_r" index="46" name=""/>
+        <alias field="ns_6_12_b" index="47" name=""/>
+        <alias field="ns_6_12_o" index="48" name=""/>
+        <alias field="ns_12_24_r" index="49" name=""/>
+        <alias field="ns_12_24_b" index="50" name=""/>
+        <alias field="ns_12_24_o" index="51" name=""/>
+        <alias field="ns_24_36_r" index="52" name=""/>
+        <alias field="ns_24_36_b" index="53" name=""/>
+        <alias field="ns_24_36_o" index="54" name=""/>
+        <alias field="ns_36_res" index="55" name=""/>
+        <alias field="ns_36_bus" index="56" name=""/>
+        <alias field="ns_36_oth" index="57" name=""/>
+        <alias field="pqns_is_r" index="58" name=""/>
+        <alias field="pqns_is_b" index="59" name=""/>
+        <alias field="pqns_is_o" index="60" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1068870728">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="geoid"/>
+          <column width="-1" hidden="0" type="field" name="ams_res"/>
+          <column width="-1" hidden="0" type="field" name="ams_bus"/>
+          <column width="-1" hidden="0" type="field" name="ams_oth"/>
+          <column width="-1" hidden="0" type="field" name="res_vac"/>
+          <column width="-1" hidden="0" type="field" name="bus_vac"/>
+          <column width="-1" hidden="0" type="field" name="oth_vac"/>
+          <column width="-1" hidden="0" type="field" name="avg_vac_r"/>
+          <column width="-1" hidden="0" type="field" name="avg_vac_b"/>
+          <column width="-1" hidden="0" type="field" name="avg_vac_o"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_res"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_bus"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_oth"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_6_r"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_6_b"/>
+          <column width="-1" hidden="0" type="field" name="vac_3_6_o"/>
+          <column width="-1" hidden="0" type="field" name="vac_6_12r"/>
+          <column width="-1" hidden="0" type="field" name="vac_6_12b"/>
+          <column width="-1" hidden="0" type="field" name="vac_6_12o"/>
+          <column width="-1" hidden="0" type="field" name="vac_12_24r"/>
+          <column width="-1" hidden="0" type="field" name="vac_12_24b"/>
+          <column width="-1" hidden="0" type="field" name="vac_12_24o"/>
+          <column width="-1" hidden="0" type="field" name="vac_24_36r"/>
+          <column width="-1" hidden="0" type="field" name="vac_24_36b"/>
+          <column width="-1" hidden="0" type="field" name="vac_24_36o"/>
+          <column width="-1" hidden="0" type="field" name="vac_36_res"/>
+          <column width="-1" hidden="0" type="field" name="vac_36_bus"/>
+          <column width="-1" hidden="0" type="field" name="vac_36_oth"/>
+          <column width="-1" hidden="0" type="field" name="pqv_is_res"/>
+          <column width="-1" hidden="0" type="field" name="pqv_is_bus"/>
+          <column width="-1" hidden="0" type="field" name="pqv_is_oth"/>
+          <column width="-1" hidden="0" type="field" name="pqv_ns_res"/>
+          <column width="-1" hidden="0" type="field" name="pqv_ns_bus"/>
+          <column width="-1" hidden="0" type="field" name="pqv_ns_oth"/>
+          <column width="-1" hidden="0" type="field" name="nostat_res"/>
+          <column width="-1" hidden="0" type="field" name="nostat_bus"/>
+          <column width="-1" hidden="0" type="field" name="nostat_oth"/>
+          <column width="-1" hidden="0" type="field" name="avg_ns_res"/>
+          <column width="-1" hidden="0" type="field" name="avg_ns_bus"/>
+          <column width="-1" hidden="0" type="field" name="avg_ns_oth"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_res"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_bus"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_oth"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_6_res"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_6_bus"/>
+          <column width="-1" hidden="0" type="field" name="ns_3_6_oth"/>
+          <column width="-1" hidden="0" type="field" name="ns_6_12_r"/>
+          <column width="-1" hidden="0" type="field" name="ns_6_12_b"/>
+          <column width="-1" hidden="0" type="field" name="ns_6_12_o"/>
+          <column width="-1" hidden="0" type="field" name="ns_12_24_r"/>
+          <column width="-1" hidden="0" type="field" name="ns_12_24_b"/>
+          <column width="-1" hidden="0" type="field" name="ns_12_24_o"/>
+          <column width="-1" hidden="0" type="field" name="ns_24_36_r"/>
+          <column width="-1" hidden="0" type="field" name="ns_24_36_b"/>
+          <column width="-1" hidden="0" type="field" name="ns_24_36_o"/>
+          <column width="-1" hidden="0" type="field" name="ns_36_res"/>
+          <column width="-1" hidden="0" type="field" name="ns_36_bus"/>
+          <column width="-1" hidden="0" type="field" name="ns_36_oth"/>
+          <column width="-1" hidden="0" type="field" name="pqns_is_r"/>
+          <column width="-1" hidden="0" type="field" name="pqns_is_b"/>
+          <column width="-1" hidden="0" type="field" name="pqns_is_o"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="geoid" expression=""/>
+        <default field="ams_res" expression=""/>
+        <default field="ams_bus" expression=""/>
+        <default field="ams_oth" expression=""/>
+        <default field="res_vac" expression=""/>
+        <default field="bus_vac" expression=""/>
+        <default field="oth_vac" expression=""/>
+        <default field="avg_vac_r" expression=""/>
+        <default field="avg_vac_b" expression=""/>
+        <default field="avg_vac_o" expression=""/>
+        <default field="vac_3_res" expression=""/>
+        <default field="vac_3_bus" expression=""/>
+        <default field="vac_3_oth" expression=""/>
+        <default field="vac_3_6_r" expression=""/>
+        <default field="vac_3_6_b" expression=""/>
+        <default field="vac_3_6_o" expression=""/>
+        <default field="vac_6_12r" expression=""/>
+        <default field="vac_6_12b" expression=""/>
+        <default field="vac_6_12o" expression=""/>
+        <default field="vac_12_24r" expression=""/>
+        <default field="vac_12_24b" expression=""/>
+        <default field="vac_12_24o" expression=""/>
+        <default field="vac_24_36r" expression=""/>
+        <default field="vac_24_36b" expression=""/>
+        <default field="vac_24_36o" expression=""/>
+        <default field="vac_36_res" expression=""/>
+        <default field="vac_36_bus" expression=""/>
+        <default field="vac_36_oth" expression=""/>
+        <default field="pqv_is_res" expression=""/>
+        <default field="pqv_is_bus" expression=""/>
+        <default field="pqv_is_oth" expression=""/>
+        <default field="pqv_ns_res" expression=""/>
+        <default field="pqv_ns_bus" expression=""/>
+        <default field="pqv_ns_oth" expression=""/>
+        <default field="nostat_res" expression=""/>
+        <default field="nostat_bus" expression=""/>
+        <default field="nostat_oth" expression=""/>
+        <default field="avg_ns_res" expression=""/>
+        <default field="avg_ns_bus" expression=""/>
+        <default field="avg_ns_oth" expression=""/>
+        <default field="ns_3_res" expression=""/>
+        <default field="ns_3_bus" expression=""/>
+        <default field="ns_3_oth" expression=""/>
+        <default field="ns_3_6_res" expression=""/>
+        <default field="ns_3_6_bus" expression=""/>
+        <default field="ns_3_6_oth" expression=""/>
+        <default field="ns_6_12_r" expression=""/>
+        <default field="ns_6_12_b" expression=""/>
+        <default field="ns_6_12_o" expression=""/>
+        <default field="ns_12_24_r" expression=""/>
+        <default field="ns_12_24_b" expression=""/>
+        <default field="ns_12_24_o" expression=""/>
+        <default field="ns_24_36_r" expression=""/>
+        <default field="ns_24_36_b" expression=""/>
+        <default field="ns_24_36_o" expression=""/>
+        <default field="ns_36_res" expression=""/>
+        <default field="ns_36_bus" expression=""/>
+        <default field="ns_36_oth" expression=""/>
+        <default field="pqns_is_r" expression=""/>
+        <default field="pqns_is_b" expression=""/>
+        <default field="pqns_is_o" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE("geoid", '&lt;NULL>')||', '||COALESCE("ams_res", '&lt;NULL>')||', '||COALESCE("ams_bus", '&lt;NULL>')||', '||COALESCE("ams_oth", '&lt;NULL>')||', '||COALESCE("res_vac", '&lt;NULL>')||', '||COALESCE("bus_vac", '&lt;NULL>')||', '||COALESCE("oth_vac", '&lt;NULL>')||', '||COALESCE("avg_vac_r", '&lt;NULL>')||', '||COALESCE("avg_vac_b", '&lt;NULL>')||', '||COALESCE("avg_vac_o", '&lt;NULL>')||', '||COALESCE("vac_3_res", '&lt;NULL>')||', '||COALESCE("vac_3_bus", '&lt;NULL>')||', '||COALESCE("vac_3_oth", '&lt;NULL>')||', '||COALESCE("vac_3_6_r", '&lt;NULL>')||', '||COALESCE("vac_3_6_b", '&lt;NULL>')||', '||COALESCE("vac_3_6_o", '&lt;NULL>')||', '||COALESCE("vac_6_12r", '&lt;NULL>')||', '||COALESCE("vac_6_12b", '&lt;NULL>')||', '||COALESCE("vac_6_12o", '&lt;NULL>')||', '||COALESCE("vac_12_24r", '&lt;NULL>')||', '||COALESCE("vac_12_24b", '&lt;NULL>')||', '||COALESCE("vac_12_24o", '&lt;NULL>')||', '||COALESCE("vac_24_36r", '&lt;NULL>')||', '||COALESCE("vac_24_36b", '&lt;NULL>')||', '||COALESCE("vac_24_36o", '&lt;NULL>')||', '||COALESCE("vac_36_res", '&lt;NULL>')||', '||COALESCE("vac_36_bus", '&lt;NULL>')||', '||COALESCE("vac_36_oth", '&lt;NULL>')||', '||COALESCE("pqv_is_res", '&lt;NULL>')||', '||COALESCE("pqv_is_bus", '&lt;NULL>')||', '||COALESCE("pqv_is_oth", '&lt;NULL>')||', '||COALESCE("pqv_ns_res", '&lt;NULL>')||', '||COALESCE("pqv_ns_bus", '&lt;NULL>')||', '||COALESCE("pqv_ns_oth", '&lt;NULL>')||', '||COALESCE("nostat_res", '&lt;NULL>')||', '||COALESCE("nostat_bus", '&lt;NULL>')||', '||COALESCE("nostat_oth", '&lt;NULL>')||', '||COALESCE("avg_ns_res", '&lt;NULL>')||', '||COALESCE("avg_ns_bus", '&lt;NULL>')||', '||COALESCE("avg_ns_oth", '&lt;NULL>')||', '||COALESCE("ns_3_res", '&lt;NULL>')||', '||COALESCE("ns_3_bus", '&lt;NULL>')||', '||COALESCE("ns_3_oth", '&lt;NULL>')||', '||COALESCE("ns_3_6_res", '&lt;NULL>')||', '||COALESCE("ns_3_6_bus", '&lt;NULL>')||', '||COALESCE("ns_3_6_oth", '&lt;NULL>')||', '||COALESCE("ns_6_12_r", '&lt;NULL>')||', '||COALESCE("ns_6_12_b", '&lt;NULL>')||', '||COALESCE("ns_6_12_o", '&lt;NULL>')||', '||COALESCE("ns_12_24_r", '&lt;NULL>')||', '||COALESCE("ns_12_24_b", '&lt;NULL>')||', '||COALESCE("ns_12_24_o", '&lt;NULL>')||', '||COALESCE("ns_24_36_r", '&lt;NULL>')||', '||COALESCE("ns_24_36_b", '&lt;NULL>')||', '||COALESCE("ns_24_36_o", '&lt;NULL>')||', '||COALESCE("ns_36_res", '&lt;NULL>')||', '||COALESCE("ns_36_bus", '&lt;NULL>')||', '||COALESCE("ns_36_oth", '&lt;NULL>')||', '||COALESCE("pqns_is_r", '&lt;NULL>')||', '||COALESCE("pqns_is_b", '&lt;NULL>')||', '||COALESCE("pqns_is_o", '&lt;NULL>')</previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>Chautauqua_Tracts20180601173005833</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <qgis2web>
+      <Maxzoomlevel type="QString">28</Maxzoomlevel>
+      <Showpopupsonhover type="bool">false</Showpopupsonhover>
+      <Basemaps type="QString">OSM</Basemaps>
+      <Exportfolder type="QString">/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Exports</Exportfolder>
+      <mapFormat type="QString">leaflet</mapFormat>
+      <Precision type="QString">maintain</Precision>
+      <Measuretool type="QString">None</Measuretool>
+      <Usedebuglibraries type="bool">false</Usedebuglibraries>
+      <Baselayer type="QStringList">
+        <value>OSM</value>
+      </Baselayer>
+      <Addlayerslist type="QString">Expanded</Addlayerslist>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Highlightonhover type="bool">false</Highlightonhover>
+      <Addaddresssearch type="bool">false</Addaddresssearch>
+      <Minzoomlevel type="QString">1</Minzoomlevel>
+      <Geolocateuser type="bool">false</Geolocateuser>
+      <Exporter type="QString">folder</Exporter>
+      <MinifyGeoJSONfiles type="bool">true</MinifyGeoJSONfiles>
+      <Extent type="QString">Canvas extent</Extent>
+      <Restricttoextent type="bool">true</Restricttoextent>
+      <Template type="QString">full-screen</Template>
+      <Mappinglibrarylocation type="QString">CDN</Mappinglibrarylocation>
+      <Searchlayer type="QString"></Searchlayer>
+      <Layersearch type="QString">None</Layersearch>
+    </qgis2web>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
