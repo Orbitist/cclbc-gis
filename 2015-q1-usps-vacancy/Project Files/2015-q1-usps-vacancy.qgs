@@ -70,6 +70,12 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-79.76215200000000038</xmin>
+        <ymin>41.99825500000000034</ymin>
+        <xmax>-79.05926399999999887</xmax>
+        <ymax>42.57020099999999729</ymax>
+      </extent>
       <id>2015_q1_usps_vacancy20180604144422141</id>
       <datasource>../Exports/2015-q1-usps-vacancy.geojson</datasource>
       <keywordList>
@@ -435,6 +441,8 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/avgvac2015" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1340,6 +1348,33 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
     </Digitizing>
+    <qgis2web>
+      <Maxzoomlevel type="QString">28</Maxzoomlevel>
+      <Showpopupsonhover type="bool">false</Showpopupsonhover>
+      <Basemaps type="QString">OSM</Basemaps>
+      <Exportfolder type="QString">/Users/ngunner/Desktop/cclbc-gis/2015-q1-usps-vacancy/Exports</Exportfolder>
+      <mapFormat type="QString">leaflet</mapFormat>
+      <Precision type="QString">maintain</Precision>
+      <Measuretool type="QString">None</Measuretool>
+      <Usedebuglibraries type="bool">false</Usedebuglibraries>
+      <Baselayer type="QStringList">
+        <value>OSM</value>
+      </Baselayer>
+      <Addlayerslist type="QString">Expanded</Addlayerslist>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Highlightonhover type="bool">false</Highlightonhover>
+      <Addaddresssearch type="bool">false</Addaddresssearch>
+      <Minzoomlevel type="QString">1</Minzoomlevel>
+      <Geolocateuser type="bool">false</Geolocateuser>
+      <Exporter type="QString">folder</Exporter>
+      <MinifyGeoJSONfiles type="bool">true</MinifyGeoJSONfiles>
+      <Extent type="QString">Fit to layers extent</Extent>
+      <Restricttoextent type="bool">false</Restricttoextent>
+      <Template type="QString">full-screen</Template>
+      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
+      <Searchlayer type="QString"></Searchlayer>
+      <Layersearch type="QString">None</Layersearch>
+    </qgis2web>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
