@@ -2207,7 +2207,7 @@ def my_form_open(dialog, layer, feature):
       <Maxzoomlevel type="QString">28</Maxzoomlevel>
       <Showpopupsonhover type="bool">false</Showpopupsonhover>
       <Basemaps type="QString">OSM</Basemaps>
-      <Exportfolder type="QString">/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Exports</Exportfolder>
+      <Exportfolder type="QString">/Users/ngunner/Desktop/cclbc-gis/2018-q1-usps-vacancy/Exports/untitled</Exportfolder>
       <mapFormat type="QString">leaflet</mapFormat>
       <Precision type="QString">maintain</Precision>
       <Measuretool type="QString">None</Measuretool>
@@ -2226,7 +2226,7 @@ def my_form_open(dialog, layer, feature):
       <Extent type="QString">Canvas extent</Extent>
       <Restricttoextent type="bool">true</Restricttoextent>
       <Template type="QString">full-screen</Template>
-      <Mappinglibrarylocation type="QString">CDN</Mappinglibrarylocation>
+      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
       <Searchlayer type="QString"></Searchlayer>
       <Layersearch type="QString">None</Layersearch>
     </qgis2web>
