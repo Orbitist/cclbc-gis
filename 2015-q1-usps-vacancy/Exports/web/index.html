@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/2015q1uspsvacancyOGRGeoJSONPolygon_0.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        })
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var bounds_group = new L.featureGroup([]);
+        var basemap0 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 28
+        });
+        basemap0.addTo(map);
+        function setBounds() {
+            if (bounds_group.getLayers().length) {
+                map.fitBounds(bounds_group.getBounds());
+            }
+        }
+        function pop_2015q1uspsvacancyOGRGeoJSONPolygon_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['avgvac2015'] !== null ? Autolinker.link(String(feature.properties['avgvac2015'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_2015q1uspsvacancyOGRGeoJSONPolygon_0_0(feature) {
+            if (feature.properties['avgvac2015'] >= 0.000000 && feature.properties['avgvac2015'] <= 0.020000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,245,235,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.020000 && feature.properties['avgvac2015'] <= 0.040000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,233,211,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.040000 && feature.properties['avgvac2015'] <= 0.060000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,215,175,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.060000 && feature.properties['avgvac2015'] <= 0.080000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,189,131,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.080000 && feature.properties['avgvac2015'] <= 0.100000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,160,87,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.100000 && feature.properties['avgvac2015'] <= 0.120000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(250,131,48,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.120000 && feature.properties['avgvac2015'] <= 0.140000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(238,101,16,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.140000 && feature.properties['avgvac2015'] <= 0.160000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(218,72,1,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.160000 && feature.properties['avgvac2015'] <= 0.180000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(171,55,2,0.7)',
+            }
+            }
+            if (feature.properties['avgvac2015'] >= 0.180000 && feature.properties['avgvac2015'] <= 0.200000 ) {
+                return {
+                pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(127,39,4,0.7)',
+            }
+            }
+        }
+        map.createPane('pane_2015q1uspsvacancyOGRGeoJSONPolygon_0');
+        map.getPane('pane_2015q1uspsvacancyOGRGeoJSONPolygon_0').style.zIndex = 400;
+        map.getPane('pane_2015q1uspsvacancyOGRGeoJSONPolygon_0').style['mix-blend-mode'] = 'normal';
+        var layer_2015q1uspsvacancyOGRGeoJSONPolygon_0 = new L.geoJson(json_2015q1uspsvacancyOGRGeoJSONPolygon_0, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_2015q1uspsvacancyOGRGeoJSONPolygon_0',
+            onEachFeature: pop_2015q1uspsvacancyOGRGeoJSONPolygon_0,
+            style: style_2015q1uspsvacancyOGRGeoJSONPolygon_0_0,
+        });
+        bounds_group.addLayer(layer_2015q1uspsvacancyOGRGeoJSONPolygon_0);
+        map.addLayer(layer_2015q1uspsvacancyOGRGeoJSONPolygon_0);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'2015-q1-usps-vacancy OGRGeoJSON Polygon<br /><table><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_000000200.png" /></td><td> 0.000 - 0.020 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_002000401.png" /></td><td> 0.020 - 0.040 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_004000602.png" /></td><td> 0.040 - 0.060 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_006000803.png" /></td><td> 0.060 - 0.080 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_008001004.png" /></td><td> 0.080 - 0.100 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_010001205.png" /></td><td> 0.100 - 0.120 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_012001406.png" /></td><td> 0.120 - 0.140 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_014001607.png" /></td><td> 0.140 - 0.160 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_016001808.png" /></td><td> 0.160 - 0.180 </td></tr><tr><td style="text-align: center;"><img src="legend/2015q1uspsvacancyOGRGeoJSONPolygon_0_018002009.png" /></td><td> 0.180 - 0.200 </td></tr></table>': layer_2015q1uspsvacancyOGRGeoJSONPolygon_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
